@@ -1,0 +1,258 @@
+body {
+    background-color: lavender;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+☪{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+●{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(5, 48, 48);
+}
+
+.flags {
+    width: 30%;
+    margin: 1.6%;
+    float: left;
+}
+
+.caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#Algeria {
+    height: 261px;
+    background:linear-gradient(to right,green 0%, green 50%, white 50%, white 100%); 
+}
+
+#Algeria::before {
+    content: '☪';
+    font-size: 200px;
+    color: #FFCD00;
+    position: absolute;
+    left: 85px;
+    margin-top: -20px;
+}
+
+#austria li{
+    height: 87px;
+    list-style-type: none;
+
+}
+#austria li:nth-child(1){
+    background-color: red;
+}
+
+#austria li:nth-child(2){
+    background-color: white;
+}
+
+#austria li:nth-child(3){
+    background-color: red;
+}
+
+#bulgaria li{
+    height: 87px;
+    list-style-type: none;
+
+}
+#bulgaria li:nth-child(1){
+    background-color: white;
+}
+
+#bulgaria li:nth-child(2){
+    background-color: green;
+}
+
+#bulgaria li:nth-child(3){
+    background-color: red;
+}
+
+#france li{
+    height: 87px;
+    list-style-type: none;
+
+}
+
+#france{ 
+    height: 261px;
+    background:linear-gradient(to right, blue 0, blue 33%, white 33%, white 66%, red 66%, red 100%); 
+} 
+
+#Ukrane li{
+    height: 130px;
+    list-style-type: none;
+
+}
+#Ukrane li:nth-child(1){
+    background-color: rgb(15, 105, 189);
+}
+
+#Ukrane li:nth-child(2){
+    background-color: rgb(248, 248, 64);
+}
+
+#germany li{
+    height: 87px;
+    list-style-type: none;
+
+}
+#germany li:nth-child(1){
+    background-color: black;
+}
+
+#germany li:nth-child(2){
+    background-color: red;
+}
+
+#germany li:nth-child(3){
+    background-color: yellow;
+}
+
+#indonesia li{
+    height: 130px;
+    list-style-type: none;
+
+}
+#indonesia li:nth-child(1){
+    background-color: red;
+}
+
+#indonesia li:nth-child(2){
+    background-color: white;
+}
+
+#italy li{
+    height: 87px;
+    list-style-type: none;
+
+}
+
+#italy{ 
+    height: 261px;
+    background:linear-gradient(to right, green 0, green 33%, white 33%, white 66%, red 66%, red 100%); 
+}
+
+#ireland li{
+    height: 87px;
+    list-style-type: none;
+
+}
+
+#ireland{ 
+    height: 261px;
+    background:linear-gradient(to right, green 0, green 33%, white 33%, white 66%, orange 66%, orange 100%); 
+}
+
+/* #nk {
+    background-color: red ;
+    height: 261px;
+}
+
+#nk::after {
+    content: '';
+    position: absolute;
+    margin-top: 24px;
+    height: 29px;
+    width: 29.5%;
+    background: #0038b8;
+    box-shadow: 0 188px 0 0 #0038b8;
+}
+
+#nk::before {
+    content: '✡';
+    font-size: 100px;
+    color: #0038b8;
+    position: absolute;
+    left: 150px;
+    margin-bottom: 10px;
+} */
+
+/* .circle {
+    background: red;
+    border-radius: 50px;
+    height: 50px;
+    margin: 50px;
+    width: 50px;
+} */
+
+/* #nk::before {
+    content: '✡';
+    font-size: 200px;
+    color: #0038b8;
+    position: absolute;
+    left: 150px;
+    margin-top: -16px;
+} */
+
+#switzerland {
+    background-color: rgb(255, 51, 0);
+    height: 261px;
+}
+
+#switzerland::before {
+    content: '+';
+    font-size: 300px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    left: 85px;
+    margin-top: -50px;
+}
+
+#japan {
+    background-color: white;
+    height: 261px;
+}
+
+#japan::before {
+    content: '●';
+    font-size: 300px;
+    color: red;
+    position: absolute;
+    left: 75px;
+    margin-top: -65px;
+}
+
+#vietnam {
+    background-color: #DA251D;
+    height: 261px;
+}
+
+#vietnam::before {
+    content: '★';
+    font-size: 200px;
+    color: #FFCD00;
+    position: absolute;
+    left: 85px;
+    margin-top: -20px;
+}
+
+
+
